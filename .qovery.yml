@@ -1,0 +1,11 @@
+---
+application:
+  name: "oidctestclient-koa"
+  project: "auth-oidc"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-oidctestclient-koa"
+  routes:
+  - application_name: "oidctestclient-koa"
+    paths:
+    - "/*"
